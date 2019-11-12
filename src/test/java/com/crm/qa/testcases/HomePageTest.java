@@ -60,7 +60,12 @@ public class HomePageTest extends TestBase {
 	public void tearDown(){
 		driver.quit();
 	}
-	
+@Test
+private void testVerified()
+{
+System.out.println("Test cases for the Home pags are verified Successfully");
+}
+
 	
 
 }
